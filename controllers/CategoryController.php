@@ -10,7 +10,7 @@ use yii\web\NotFoundHttpException;
 
 class CategoryController extends AppController
 {
-
+    //test commit
     public function actionView($id)
     {
         $category = Category::findOne($id);
