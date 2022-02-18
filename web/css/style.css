@@ -4097,7 +4097,7 @@ input.checkbox:checked:after {
 		margin-bottom: 2em;
 	}
 	.w3ls_w3l_banner_left:nth-child(3){
-		margin:0 auto;
+		margin:2em auto;
 	}
 	.w3ls_w3l_banner_left:nth-child(4){
 		margin:2em auto;
@@ -4817,4 +4817,17 @@ input.checkbox:checked:after {
 		background: url(../images/cart.png) no-repeat 105px 5px;
 		font-size: 13px;
 	}
+}
+
+.w3ls_w3l_banner_left{
+	margin-bottom: 20px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+	background-color: #fa1818;
+	border-color: #b10909;
+}
+
+.pagination > li > a, .pagination > li > span {
+	color: #fa1818;
 }
