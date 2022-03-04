@@ -56,6 +56,8 @@ $config = [
                 'category/<id:\d+>/page/<page:\d+>' => 'category/view', // /category/1?page=2 => /category/1/page/2
                 'category/<id:\d+>' => 'category/view',
                 'product/<id:\d+>' => 'product/view',
+//                'search' => 'category/search',
+                'search' => 'search/search',
             ],
         ],
 
